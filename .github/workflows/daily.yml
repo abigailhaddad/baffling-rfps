@@ -1,0 +1,59 @@
+name: Daily
+
+# Every morning: read the new SAM.gov postings from the days not yet covered
+# (data/days/<day>.json, through yesterday US Eastern), commit them, then build
+# the week's Baffling RFP if this Monday-Sunday week has none yet (normally on
+# Monday; a later day only if Monday's build failed), and deploy the site
+# (https://baffling.abigailhaddad.com, Cloudflare Pages project baffling-rfps).
+#
+# Secrets: ANTHROPIC_API_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
+# Variable: ANTHROPIC_WORKSPACE_ID (optional).
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340  # batches usually finish within an hour; batch.py gives up at 5 hours
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - run: uv run pytest -q
+      - name: Rate new postings
+        run: uv run python -m baffling.daily
+      - name: Commit days
+        run: |
+          git config user.name "baffling-rfps bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || { git commit -m "Days through $(TZ=America/New_York date -d yesterday +%Y-%m-%d)"; git push; }
+      - name: Build this week's issue (once a week)
+        run: uv run python -m baffling.issue
+      - name: Commit issue
+        run: |
+          git add data/
+          git diff --cached --quiet || { git commit -m "Issue $(TZ=America/New_York date +%Y-%m-%d)"; git push; }
+      - name: Build site
+        run: uv run python -m baffling.site --out site/dist
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.42.0"
+          command: pages deploy site/dist --project-name=baffling-rfps --branch=main

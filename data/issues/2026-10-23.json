@@ -1,0 +1,1584 @@
+{
+ "date": "2026-10-23",
+ "window": {
+  "from": "2026-10-19",
+  "to": "2026-10-21"
+ },
+ "built_utc": "2026-10-23T12:26:18+00:00",
+ "counts": {
+  "new": 1489,
+  "pass1_flagged": 191,
+  "severity3": 0,
+  "severity2": 19,
+  "dropped_by_live_check": 1,
+  "not_rated": 0,
+  "verify_failed": 0,
+  "finalists": 19,
+  "dropped_on_review": 1
+ },
+ "winner": {
+  "key": "sol:19R01027Q0002",
+  "notice_id": "36fc24bfbf494a6898a4f45a2c51a490",
+  "first_notice_id": "36fc24bfbf494a6898a4f45a2c51a490",
+  "sol": "19R01027Q0002",
+  "type": "Combined Synopsis/Solicitation",
+  "title": "Snow removal, de-icing, and related winter maintenance services",
+  "agency": "STATE, DEPARTMENT OF",
+  "subtier": "STATE, DEPARTMENT OF",
+  "office": "U.S. EMBASSY BUCHAREST",
+  "naics": "56173",
+  "psc": "S208",
+  "set_aside": "",
+  "first_posted": "2026-10-21T08:54:52-04:00",
+  "versions": 1,
+  "deadline": "2026-11-04T17:00:00+03:00",
+  "window_days": 14.05,
+  "place": "Bucharest, RO-B",
+  "link": "https://sam.gov/opp/36fc24bfbf494a6898a4f45a2c51a490/view",
+  "pass1": {
+   "prescreen": 1,
+   "severity": 2,
+   "summary": "Embassy Bucharest snow removal IDIQ RFQ. The text refers to a SOW that is not described, and does not say the number of sites, the season dates, estimated hours or quantities. It also says IDIQ but also a fixed hourly price. A bidder cannot price this properly without the SOW.",
+   "failed": false
+  },
+  "pass2": {
+   "severity": 2,
+   "headline": "",
+   "issues": [
+    {
+     "kind": "contradictory",
+     "why": "The RFQ gives two different start dates for the winter ordering window, November 15 in one place and November 1 in another.",
+     "evidence": [
+      {
+       "quote": "During each contract year, services may be ordered during the seasonal service window of November 15 through March 30.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 4
+      },
+      {
+       "quote": "Services may be ordered as needed from November 1 through March 30 during each contract year.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 10
+      }
+     ]
+    },
+    {
+     "kind": "contradictory",
+     "why": "The attached SOW describes a single 12-month performance period, while the RFQ describes a base year plus two option years.",
+     "evidence": [
+      {
+       "quote": "The performance period of this contract is from the start date in the Notice to Proceed and continues for 12 months when needed.",
+       "source": "SOW-Snow-Removal_services_2026-27.docx",
+       "page": null
+      },
+      {
+       "quote": "The contract will have a one-year base period and two one-year option periods.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 4
+      }
+     ]
+    },
+    {
+     "kind": "wrong_content",
+     "why": "The SOW contains headings and a report template for gardening and lawn maintenance, which do not belong in a snow removal buy.",
+     "evidence": [
+      {
+       "quote": "PERFORMANCE WORK STATEMENT (PWS) – GARDENING SERVICES",
+       "source": "SOW-Snow-Removal_services_2026-27.docx",
+       "page": null
+      },
+      {
+       "quote": "LAWN MAINTENANCE REPORT",
+       "source": "SOW-Snow-Removal_services_2026-27.docx",
+       "page": null
+      }
+     ]
+    },
+    {
+     "kind": "wrong_content",
+     "why": "The RFQ still contains internal drafting notes and open items, showing the document was not finished before posting.",
+     "evidence": [
+      {
+       "quote": "The Government should specify the unit for final snow disposal.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 8
+      },
+      {
+       "quote": "The Government shall confirm the required currency and VAT presentation before issuance.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 7
+      },
+      {
+       "quote": "Where the source document contains conflicting or incomplete requirements, the items are identified for Contracting Officer confirmation before issuance.",
+       "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+       "page": 10
+      }
+     ]
+    }
+   ],
+   "dropped_issues": [],
+   "tokens": [
+    22011,
+    2015
+   ],
+   "attachments": [
+    {
+     "name": "SOW-Snow-Removal_services_2026-27.docx",
+     "type": "file",
+     "size": 3615472,
+     "read": true
+    },
+    {
+     "name": "RFQ 19R01027Q0002 Snow Removal.pdf",
+     "type": "file",
+     "size": 1579128,
+     "ocr_pages": [
+      19
+     ],
+     "unread_pages": [],
+     "read": true
+    }
+   ],
+   "attachments_error": null,
+   "verify_tokens": [
+    22077,
+    941
+   ],
+   "dropped_headline": {
+    "headline": "The RFQ mixes a draft IDIQ rewrite with an older gardening-based SOW, so it has conflicting service windows and contract lengths, copied gardening and lawn text, and unresolved drafting notes.",
+    "reason": "Calling the attached SOW 'gardening-based' overstates it. The SOW is a snow-removal document with some leftover gardening and lawn headings."
+   }
+  },
+  "live": {
+   "checked_utc": "2026-10-23T12:25:39+00:00",
+   "amended": false
+  },
+  "headline": "Embassy snow removal request includes gardening and lawn maintenance paperwork",
+  "dek": "The U.S. Embassy in Bucharest is seeking quotes for snow removal and de-icing, but the attached statement of work is headed for gardening services and includes a lawn maintenance report. The request also contains internal drafting notes and gives two different start dates for the winter service window.",
+  "hero": {
+   "kind": "wrong_content",
+   "why": "The SOW contains headings and a report template for gardening and lawn maintenance, which do not belong in a snow removal buy.",
+   "evidence": [
+    {
+     "quote": "PERFORMANCE WORK STATEMENT (PWS) – GARDENING SERVICES",
+     "source": "SOW-Snow-Removal_services_2026-27.docx",
+     "page": null
+    },
+    {
+     "quote": "LAWN MAINTENANCE REPORT",
+     "source": "SOW-Snow-Removal_services_2026-27.docx",
+     "page": null
+    }
+   ]
+  },
+  "support": [
+   {
+    "kind": "wrong_content",
+    "why": "The RFQ still contains internal drafting notes and open items, showing the document was not finished before posting.",
+    "evidence": [
+     {
+      "quote": "The Government should specify the unit for final snow disposal.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 8
+     },
+     {
+      "quote": "The Government shall confirm the required currency and VAT presentation before issuance.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 7
+     },
+     {
+      "quote": "Where the source document contains conflicting or incomplete requirements, the items are identified for Contracting Officer confirmation before issuance.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "kind": "contradictory",
+    "why": "The RFQ gives two different start dates for the winter ordering window, November 15 in one place and November 1 in another.",
+    "evidence": [
+     {
+      "quote": "During each contract year, services may be ordered during the seasonal service window of November 15 through March 30.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 4
+     },
+     {
+      "quote": "Services may be ordered as needed from November 1 through March 30 during each contract year.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 10
+     }
+    ]
+   }
+  ],
+  "also": [
+   {
+    "kind": "contradictory",
+    "why": "The attached SOW describes a single 12-month performance period, while the RFQ describes a base year plus two option years.",
+    "evidence": [
+     {
+      "quote": "The performance period of this contract is from the start date in the Notice to Proceed and continues for 12 months when needed.",
+      "source": "SOW-Snow-Removal_services_2026-27.docx",
+      "page": null
+     },
+     {
+      "quote": "The contract will have a one-year base period and two one-year option periods.",
+      "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+      "page": 4
+     }
+    ]
+   }
+  ]
+ },
+ "list": [
+  {
+   "key": "sol:PR16340639",
+   "notice_id": "498039a792b2415ca237b1f25185acfd",
+   "first_notice_id": "498039a792b2415ca237b1f25185acfd",
+   "sol": "PR16340639",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "Nanotechnology Certified Replacement Filter",
+   "agency": "STATE, DEPARTMENT OF",
+   "subtier": "STATE, DEPARTMENT OF",
+   "office": "U.S. EMBASSY ADDIS ABABA",
+   "naics": "33399",
+   "psc": "4610",
+   "set_aside": "",
+   "first_posted": "2026-10-19T08:25:34-04:00",
+   "versions": 1,
+   "deadline": "2026-11-05T16:00:00-05:00",
+   "window_days": 17.36,
+   "place": "Addis Ababa",
+   "link": "https://sam.gov/opp/498039a792b2415ca237b1f25185acfd/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 3,
+    "summary": "The quantity contradicts itself: 4,000 filters in the opening line versus 'Required Quantity: 150 Each'. The text gives no specs, delivery terms or submission instructions, and the title and NAICS (filtration equipment) are unclear.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The requirement says 4,000 filters in one sentence and a required quantity of 150 each in the next, so the amount to buy is unclear.",
+      "evidence": [
+       {
+        "quote": "requires 4,000 Nanotechnology Certified Replacement Filters (Item 4010, 3-Pack). Required Quantity: 150 Each",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Required Quantity: 150 Each",
+        "source": "Combined Synopsis _RFQ Number PR16340639.pdf",
+        "page": 2
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:33+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:W519TC-27-Q-A024",
+   "notice_id": "6e229af55f734103a3cc7b558cf7c007",
+   "first_notice_id": "6e229af55f734103a3cc7b558cf7c007",
+   "sol": "W519TC-27-Q-A024",
+   "type": "Solicitation",
+   "title": "Bulk Foundry Sand",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE ARMY",
+   "office": "W6QK ACC-RI",
+   "naics": "327999",
+   "psc": "5610",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-19T09:29:03-04:00",
+   "versions": 1,
+   "deadline": "2026-10-28T18:00:00-05:00",
+   "window_days": 9.4,
+   "place": "Rock Island, IL",
+   "link": "https://sam.gov/opp/6e229af55f734103a3cc7b558cf7c007/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 2,
+    "summary": "Bulk foundry sand posting. It is a Small Business Set Aside but says the action is restricted to a named firm, Badger Mining, so no one else can bid. The text gives no quantity, specs or delivery terms and says only 'create a BPA'.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting says the action is restricted to Badger Mining, while the solicitation says every responsible and technically acceptable offeror is eligible for a BPA and that multiple awards may be made.",
+      "evidence": [
+       {
+        "quote": "THIS ACTION IS RESTRICTED TO BADGER MINING.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "All offerors determined to be responsible pursuant to FAR 9.104-1 and technically acceptable in accordance with the criteria within the solicitation are eligible for award of a BPA.",
+        "source": "Solicitation - W519TC27QA024.pdf",
+        "page": 3
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:34+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:SPRRA1-27-Q-A013",
+   "notice_id": "3a938abd21394fe9a8bf4665cf0d386c",
+   "first_notice_id": "3a938abd21394fe9a8bf4665cf0d386c",
+   "sol": "SPRRA1-27-Q-A013",
+   "type": "Sources Sought",
+   "title": "CONTAINER,MODULAR",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEFENSE LOGISTICS AGENCY",
+   "office": "DLA AVIATION AT HUNTSVILLE, AL",
+   "naics": "332439",
+   "psc": "8145",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-19T10:39:05-04:00",
+   "versions": 1,
+   "deadline": "2026-10-23T15:00:00-05:00",
+   "window_days": 4.22,
+   "place": "PA",
+   "link": "https://sam.gov/opp/3a938abd21394fe9a8bf4665cf0d386c/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Text is only the item name 'CONTAINER,MODULAR', with no NSN, quantity, delivery or instructions. The place of performance is PA. It is a small business set-aside with a 4-day window. The buyer's needs can't be determined without attachments.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "A sources sought notice for a modular container gives conflicting set-aside information, saying it is both a total small business set-aside and a Women-Owned Small Business set-aside while also welcoming all business types.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The notice says the buy is set aside for Women Owned Small Businesses and that the Government wants Women-Owned firms, yet it also says the Government wants all business types, while the cover data says 100% small business.",
+      "evidence": [
+       {
+        "quote": "this acquisition is currently being procured under Federal Acquisition Regulation (FAR) 19.1505 set-aside procedures for Women Owned Small Businesses.",
+        "source": "KO Signed _ Sources Sought - SPRRA127QA013.pdf",
+        "page": 1
+       },
+       {
+        "quote": "The Government is interested in all businesses to include 8(a), small business and small disadvantaged business, Service-Disabled Veteran-Owned, Hubzone, and Women-Owned small business concerns.",
+        "source": "KO Signed _ Sources Sought - SPRRA127QA013.pdf",
+        "page": 1
+       },
+       {
+        "quote": "Set Aside Code: 100% SB",
+        "source": "KO Signed _ Sources Sought - SPRRA127QA013.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "unclear",
+      "why": "The notice says it is seeking sources but does not state what a response must contain, how to submit it, or the quantity, and refers to a solicitation that is said not to exist.",
+      "evidence": [
+       {
+        "quote": "THERE IS NO SOLICITATION AVAILABLE AT THIS TIME. REQUEST FOR A SOLICITATION WILL NOT RECEIVE A RESPONSE.",
+        "source": "KO Signed _ Sources Sought - SPRRA127QA013.pdf",
+        "page": 1
+       },
+       {
+        "quote": "in accordance with the terms and conditions set forth in the solicitation annotated above, at the unit prices established at time of a contract award.",
+        "source": "KO Signed _ Sources Sought - SPRRA127QA013.pdf",
+        "page": 1
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:40+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:N0038327QS122",
+   "notice_id": "9193c80261864cf9a17986174dd78fa2",
+   "first_notice_id": "9193c80261864cf9a17986174dd78fa2",
+   "sol": "N0038327QS122",
+   "type": "Solicitation",
+   "title": "N0038326PR0R653",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT",
+   "naics": "336413",
+   "psc": "1680",
+   "set_aside": "",
+   "first_posted": "2026-10-19T12:09:26-04:00",
+   "versions": 1,
+   "deadline": "2026-11-16T21:00:00-05:00",
+   "window_days": 28.37,
+   "place": "",
+   "link": "https://sam.gov/opp/9193c80261864cf9a17986174dd78fa2/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 2,
+    "summary": "Navy NAVSUP posting has only a garbled NSN ('--016523872-'), 'REF' blank, and quantity 58 with 'DELIVERY FOB' cut off. The item cannot be identified from the text, and the title is just a PR number. TDP details are presumably in attachments.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting gives a quantity of 58, while the solicitation's delivery schedule lists only 1 Each for the single line item.",
+      "evidence": [
+       {
+        "quote": "NSN --016523872-, TDP VER 001, REF , QTY 58 , DELIVERY FOB",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Delivery Estimated By                                               1 Each",
+        "source": "Solicitation - N0038327QS122.pdf",
+        "page": 15
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:41+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:47QSSC-27-Q-0023",
+   "notice_id": "849c9aafb00f4e91a522e63dbb0bb04b",
+   "first_notice_id": "849c9aafb00f4e91a522e63dbb0bb04b",
+   "sol": "47QSSC-27-Q-0023",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "Brand Name NI – Various PXI/PXIe Test and Measurement Modules",
+   "agency": "GENERAL SERVICES ADMINISTRATION",
+   "subtier": "FEDERAL ACQUISITION SERVICE",
+   "office": "GSA/FAS/GSS/QSCB, SUPPLY CHAIN MANAGEMENT CONTRACTING DIVISION",
+   "naics": "334515",
+   "psc": "6625",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-19T13:04:05-04:00",
+   "versions": 1,
+   "deadline": "2026-10-22T18:00:00-04:00",
+   "window_days": 3.21,
+   "place": "Keyport, WA",
+   "link": "https://sam.gov/opp/849c9aafb00f4e91a522e63dbb0bb04b/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The solicitation number is inconsistent: the header says 47QSSC-27-Q-0023 but the body says 447QSSC-27-Q-0023. The window is about 3 days for five brand-name NI modules, which is acceptable. The quote submission email address is only 'identified in this RFQ' and not clearly given, though a contact email is listed.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting body gives the solicitation number as 447QSSC-27-Q-0023, while the header and the attached RFQ use 47QSSC-27-Q-0023.",
+      "evidence": [
+       {
+        "quote": "Solicitation number 447QSSC-27-Q-0023 is issued an as RFQ for the procurement of National Instruments (NI) PXI/PXIe test and measurement modules.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "SAM Notice ID         47QSSC-27-Q-0023",
+        "source": "N0025360511799   FAR 12 RFQ.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The attached RFQ is stamped as an unfinished working copy with a 'Finalize for Vendor' note, so it is a draft rather than a final vendor form.",
+      "evidence": [
+       {
+        "quote": "Finalize for Vendor",
+        "source": "N0025360511799   FAR 12 RFQ.pdf",
+        "page": 1
+       },
+       {
+        "quote": "CO WORKING COPY - NOT FINALIZED",
+        "source": "N0025360511799   FAR 12 RFQ.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The attached form's part-number header lists 785117-01 twice (six numbers), while the requirement lists five distinct items, one of each.",
+      "evidence": [
+       {
+        "quote": "PN     787358-01, 780587-48, 785117-01, 785117-01, 778572-69, 780587-24",
+        "source": "N0025360511799   FAR 12 RFQ.pdf",
+        "page": 1
+       },
+       {
+        "quote": "QTY (1) - 778572-69 PXI-2569 PXI Relay Module, SPST (open), 100-Channel, 100 V, 1 A",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "unclear",
+      "why": "The posting says to email the quote to 'the address identified in this RFQ', but the RFQ form names no submission email; the only contact given is a questions address.",
+      "evidence": [
+       {
+        "quote": "Submit the quotation and all required documentation by email to the address identified in this RFQ no later than the stated closing date and time.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:43+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:70Z04027Q60711Y00",
+   "notice_id": "5fd4d49f532d4a8881eeebc34e86929e",
+   "first_notice_id": "5fd4d49f532d4a8881eeebc34e86929e",
+   "sol": "70Z04027Q60711Y00",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "STRAIN GAGE MEASUREMENT",
+   "agency": "HOMELAND SECURITY, DEPARTMENT OF",
+   "subtier": "US COAST GUARD",
+   "office": "CG-SEA-C23",
+   "naics": "541330",
+   "psc": "R425",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-19T13:34:51-04:00",
+   "versions": 1,
+   "deadline": "2026-10-31T12:00:00-04:00",
+   "window_days": 11.93,
+   "place": "Curtis Bay, MD",
+   "link": "https://sam.gov/opp/5fd4d49f532d4a8881eeebc34e86929e/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The solicitation number is inconsistent: the header is 70Z04027Q60711Y00, the body says 2126406Y6176J96018, and the email subject line says 70Z04026Q60711Y00. The quote is to be sent to 'Shellby Scotton' at an address for Shellby.M.Hammond. The FAC 2024-05 clause set is outdated. The SOW and WI are not attached in the text, and the line prices and performance dates are blank. The scope depends on attachments and a vague 'ASAP' schedule.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting gives three different solicitation numbers: the notice header uses 70Z04027Q60711Y00, the body uses 2126406Y6176J96018, and the email subject line must carry 70Z04026Q60711Y00.",
+      "evidence": [
+       {
+        "quote": "Solicitation number 2126406Y6176J96018 applies and is used as a Request for Quote (RFQ).",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "All emailed quotes shall have 70Z04026Q60711Y00 in the subject of the email.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The SOW says performance starts 10/10/26, which is before the 10/19/26 posting date and before the 10/31/26 quote deadline, while the posting says services are needed after award.",
+      "evidence": [
+       {
+        "quote": "Period of performance will start on 10/10/26, then the remaining measurements will take place in Baltimore MD, TBD.",
+        "source": "Eagle Strain Gage SOW.docx",
+        "page": null
+       },
+       {
+        "quote": "All Services are required ASAP after award.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:45+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:N0018926QL3760001",
+   "notice_id": "2629347a54b345eca78e2f6a83ddf81c",
+   "first_notice_id": "2629347a54b345eca78e2f6a83ddf81c",
+   "sol": "N0018926QL3760001",
+   "type": "Solicitation",
+   "title": "TRI WALL BOXES",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP FLT LOG CTR NORFOLK",
+   "naics": "322211",
+   "psc": "8115",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-19T16:06:33-04:00",
+   "versions": 1,
+   "deadline": "2026-10-22T12:00:00-04:00",
+   "window_days": 2.83,
+   "place": "Norfolk, VA",
+   "link": "https://sam.gov/opp/2629347a54b345eca78e2f6a83ddf81c/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Posting says only \"TRI WALL BOXES\" with no sizes, quantities, specs or delivery details in the text, and the quote window is under 3 days. A bidder cannot quote without the attachments, which may supply details; quantities and specs are unknown.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "Delivery destination is given as Williamsburg, VA in one place and Norfolk, VA in another, and the form still has unfilled Contracting Officer fill-in blanks.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The specifications page sends the boxes to a warehouse in Williamsburg, while the delivery schedule lists a Norfolk address and a different point of contact for the same two line items.",
+      "evidence": [
+       {
+        "quote": "DELIVERY TO ADDRESS: WILLIAMSBURG, VA. 23185 1 C STREET, WAREHOUSE 1",
+        "source": "Solicitation Amendment - N0018926QL3760001.pdf",
+        "page": 2
+       },
+       {
+        "quote": "ATTN CODE 301, 1968 GILBERT ST SUITE 600",
+        "source": "Solicitation Amendment - N0018926QL3760001.pdf",
+        "page": 5
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "Template instructions and blanks meant for the Contracting Officer were left in the clauses, including the payment routing table and the subcontracting-limit checkboxes.",
+      "evidence": [
+       {
+        "quote": "(Contracting Officer: Insert applicable invoice and receiving report document type(s) for fixed price line items that require shipment of a deliverable.)",
+        "source": "Solicitation Amendment - N0018926QL3760001.pdf",
+        "page": 8
+       },
+       {
+        "quote": "[Contracting Officer check as appropriate.]",
+        "source": "Solicitation Amendment - N0018926QL3760001.pdf",
+        "page": 12
+       },
+       {
+        "quote": "Contracting Officer to insert applicable information cited in PGI 225.772-1",
+        "source": "Solicitation Amendment - N0018926QL3760001.pdf",
+        "page": 16
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:46+00:00",
+    "amended": true,
+    "latest_notice_id": "87aa63f6868f415997178be979a64d04"
+   }
+  },
+  {
+   "key": "sol:70Z03827QB0000007",
+   "notice_id": "2d40660965c04a5e946df2e9a0ee409c",
+   "first_notice_id": "d63d4401cf1f45649546e01a1effe1f8",
+   "sol": "70Z03827QB0000007",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "PROCUREMENT OF RUBBER COATED MATER FOR USE ON MH-65",
+   "agency": "HOMELAND SECURITY, DEPARTMENT OF",
+   "subtier": "US COAST GUARD",
+   "office": "AVIATION LOGISTICS CENTER (ALC)(00038)",
+   "naics": "336413",
+   "psc": "1560",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-20T14:45:05-04:00",
+   "versions": 3,
+   "deadline": "2026-11-02T10:00:00-05:00",
+   "window_days": 12.84,
+   "place": "",
+   "link": "https://sam.gov/opp/2d40660965c04a5e946df2e9a0ee409c/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 3,
+    "summary": "The deadline is contradictory: the header window runs to Nov 2, while Amendment 1 and the text say the close is Oct 22, only 2 days after posting, 'due to urgency'. The posting is also confusing on competition: it calls itself restricted and sole source to Aero Rubber, yet invites other concerns and says alternate parts will be accepted and also that no substitutes or alternates will be considered. The title 'RUBBER COATED MATER' is cut off. It says no drawings are available but then points to an OEM specifications attachment.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting text closes offers on 22 October 2026, about two days after the 20 October posting, but the listed response deadline is 2 November 2026.",
+      "evidence": [
+       {
+        "quote": "Closing date and time for receipt of offers is 22 October 2026 at 10:00 am EDT.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "close the solicitation early on October 22, 2026, at 10:00am EDT due to increased urgency in the requirement",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:49+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:DLA-CE-SS-4220-01-708-3638",
+   "notice_id": "1fca7c4c08b843ffabd5af685da193a1",
+   "first_notice_id": "1fca7c4c08b843ffabd5af685da193a1",
+   "sol": "DLA-CE-SS-4220-01-708-3638",
+   "type": "Sources Sought",
+   "title": "Life Preserver, Vest",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEFENSE LOGISTICS AGENCY",
+   "office": "DLA TROOP SUPPORT",
+   "naics": "315990",
+   "psc": "4220",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-20T15:26:22-04:00",
+   "versions": 1,
+   "deadline": "2026-11-03T08:00:00-05:00",
+   "window_days": 13.73,
+   "place": "Philadelphia, PA",
+   "link": "https://sam.gov/opp/1fca7c4c08b843ffabd5af685da193a1/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Sources sought for an aircrew life preserver vest that is clear on item and NSN. But the response due date and email addresses are unfilled template placeholders ([Insert Date], [Insert Contracting Officer Email]), so a respondent cannot tell where to send responses or the exact deadline. PSC/NAICS are uncertain.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "unclear",
+      "why": "The notice names two possible contracting officers and two possible NAICS codes instead of stating one of each.",
+      "evidence": [
+       {
+        "quote": "Contracting Officer: James Lewicky (or Joel Dalafave)",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "NAICS Code: 315990 – Apparel Accessories and Other Apparel Manufacturing (or 339999 – All Other Miscellaneous Manufacturing)",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:53+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:140A2327Q0297",
+   "notice_id": "e4a47e82b30048b8b1bea3bf1598953b",
+   "first_notice_id": "e4a47e82b30048b8b1bea3bf1598953b",
+   "sol": "140A2327Q0297",
+   "type": "Solicitation",
+   "title": "IE181 - WHS Greenhouse Construction",
+   "agency": "INTERIOR, DEPARTMENT OF THE",
+   "subtier": "BUREAU OF INDIAN AFFAIRS",
+   "office": "INDIAN EDUCATION ACQUISITION OFFICE",
+   "naics": "236210",
+   "psc": "Y1CA",
+   "set_aside": "Indian Small Business Economic Enterprise",
+   "first_posted": "2026-10-20T18:01:53-04:00",
+   "versions": 1,
+   "deadline": "2026-11-19T12:00:00-07:00",
+   "window_days": 29.87,
+   "place": "Ft. Wingate, NM",
+   "link": "https://sam.gov/opp/e4a47e82b30048b8b1bea3bf1598953b/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Greenhouse installation at Wingate High School under an Indian Small Business Economic Enterprise set-aside. The description doesn't specify the greenhouse size or model, and the pricing is a mix of construction and supply items. It says bonds are required above $35,000 with a $100k-$250k estimate, and cites both FOB shipping and Navajo Nation taxes. A bidder would need attachments to price the right thing.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The scope of contract in Section C.1 describes installing fencing for student safety, not a greenhouse, which looks like text copied from a different buy.",
+      "evidence": [
+       {
+        "quote": "for the installation of fencing on campus for the safety of the student.",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 4
+       },
+       {
+        "quote": "necessary to Installation a Greenhouse at Wingate High School in Fort Wingate, NM.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The posting says award goes to the lowest-priced conforming quote, but the attachment requires a two-volume technical proposal rated pass/fail on four factors with a 20-page limit, and calls it an LPTA proposal process, while the quote contents section asks only for company information and pricing.",
+      "evidence": [
+       {
+        "quote": "Award will be made to the lowest priced offeror, who's quote conforming to the requirements herein, will be most advantageous to the Government",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Offerors shall submit proposals in two separately organized volumes.",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 15
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The attachment includes drafting notes and cross-references to sections that do not exist or are not in this document, such as Sections 9.2 to 9.6 and Section 4.0, indicating template text left in.",
+      "evidence": [
+       {
+        "quote": "The content of Sections 9.2 through 9.6 is written for incorporation into the BIE solicitation LPTA template",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 15
+       },
+       {
+        "quote": "Any questions related to this requirement must be submitted to the email listed in Section 4.0 above",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 20
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The posting says questions are due 10 days before closing, but the attachment sets the question deadline at the same time as the quote deadline.",
+      "evidence": [
+       {
+        "quote": "no later then 10 days BEFORE closing",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "no later than Thursday, November 19, 12:00 MDT.",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 20
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The posting lists the pricing breakdown as installation, materials and taxes with no bonding or profit, while the Section B schedule adds profit and bonding lines, and the contacts differ (Mary Jane Johnson versus Stanley Henderson).",
+      "evidence": [
+       {
+        "quote": "POC: Stanley Henderson, Stanley.henderson@bie.edu",
+        "source": "Sol_140A2327Q0297.pdf",
+        "page": 5
+       },
+       {
+        "quote": "Any further questions regarding this announcement may be directed to Mary Jane Johnson, Contracting Officer",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:24:53+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:FA461027Q0152",
+   "notice_id": "0d324ec3ba4e4fafb5163e66274567af",
+   "first_notice_id": "aa56480de9ab428199050b4cdcc1c351",
+   "sol": "FA461027Q0152",
+   "type": "Solicitation",
+   "title": "Protestant Religious Education",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE AIR FORCE",
+   "office": "FA4610 30 CONS PK",
+   "naics": "813110",
+   "psc": "G002",
+   "set_aside": "",
+   "first_posted": "2026-10-20T18:53:59-04:00",
+   "versions": 3,
+   "deadline": "2026-10-30T14:00:00-07:00",
+   "window_days": 9.92,
+   "place": "Lompoc, CA",
+   "link": "https://sam.gov/opp/0d324ec3ba4e4fafb5163e66274567af/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "RFQ for a Protestant Religious Education Coordinator at Vandenberg SFB. The text refers to solicitation FA461026Q0152 while the solicitation number is FA461027Q0152. It says 100% small business set-aside while the header shows none. It also refers to an award on 30 October, the same day quotes are due. The PWS and pricing are in attachments, and the 5-year period of performance is clear. Window is about 10 days.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "The notice says it is a 100% small business set-aside and gives a five-year performance period, but the structured data and the PWS say otherwise, and the clause attachment still has unfilled template text.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting text calls the buy a 100% Small Business Set-Aside, while the listing data says there is no set-aside.",
+      "evidence": [
+       {
+        "quote": "This acquisition will be made as a 100% Small Business Set-Aside, with a size standard of $13 Million.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Notice of Total Small Business Set-Aside. (Deviation 2026-",
+        "source": "Attachment 3- Clauses and Provisions.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The posting gives a five-year performance period, but the PWS gives a one-year period with unspecified renewals.",
+      "evidence": [
+       {
+        "quote": "estimated period of performance from 1 Nov 2026 to 31 Oct 2031",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The period of performance will be from 1 November 2026 through 31 October 2027, with optional renewal periods as determined by the government.",
+        "source": "Attachment 1- Performance Work Statement.pdf",
+        "page": 7
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The clause attachment still contains unfilled template instructions and blanks, such as bracketed fill-in prompts and empty wage tables.",
+      "evidence": [
+       {
+        "quote": "(Contracting Officer: Insert applicable invoice and receiving report document type(s) for fixed price line items that require shipment of a deliverable.)",
+        "source": "Attachment 3- Clauses and Provisions.pdf",
+        "page": 5
+       },
+       {
+        "quote": "within 30[insert the period of time within which the Contracting Officer may exercise the option]",
+        "source": "Attachment 3- Clauses and Provisions.pdf",
+        "page": 7
+       },
+       {
+        "quote": "shall not exceed 5 years(months) (years).",
+        "source": "Attachment 3- Clauses and Provisions.pdf",
+        "page": 7
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The solicitation number in the posting text differs from the number on the listing and in the attachment.",
+      "evidence": [
+       {
+        "quote": "Solicitation FA461026Q0152 is issued as a Request for Quotation (RFQ)",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "DOCUMENT NUMBER FA461027Q0152",
+        "source": "Attachment 3- Clauses and Provisions.pdf",
+        "page": 1
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:13+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:N6817127QN001",
+   "notice_id": "2bfaa394046347c6ae664ba61191ca69",
+   "first_notice_id": "2bfaa394046347c6ae664ba61191ca69",
+   "sol": "N6817127QN001",
+   "type": "Solicitation",
+   "title": "MID Deployment Voyage Repair (MDVR)",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP FLC SIGONELLA NAPLES OFFICE",
+   "naics": "336611",
+   "psc": "J998",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-21T05:22:54-04:00",
+   "versions": 1,
+   "deadline": "2026-10-22T10:00:00+02:00",
+   "window_days": 0.94,
+   "place": "",
+   "link": "https://sam.gov/opp/2bfaa394046347c6ae664ba61191ca69/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 3,
+    "summary": "The text is only the title 'MID Deployment Voyage Repair (MDVR)'. There is no scope, vessel, location, or instructions. The deadline is under one day after posting, which is far too short for ship repair.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "rushed",
+      "why": "Quotes are due about 0.94 days after posting for a four-item ship repair that needs a signed NDA, technical documents and a price breakdown, and the work is scheduled to start the next day.",
+      "evidence": [
+       {
+        "quote": "The Period of performance is 23 - 26 October 2026.",
+        "source": "Solicitation - N6817127QN001.pdf",
+        "page": 8
+       },
+       {
+        "quote": "Quoter must submit a request for references via email at the following email with a signed Attachment S-1 Non Disclosure Agreement (NDA)",
+        "source": "Solicitation - N6817127QN001.pdf",
+        "page": 4
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:34+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:19R01027Q0002",
+   "notice_id": "36fc24bfbf494a6898a4f45a2c51a490",
+   "first_notice_id": "36fc24bfbf494a6898a4f45a2c51a490",
+   "sol": "19R01027Q0002",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "Snow removal, de-icing, and related winter maintenance services",
+   "agency": "STATE, DEPARTMENT OF",
+   "subtier": "STATE, DEPARTMENT OF",
+   "office": "U.S. EMBASSY BUCHAREST",
+   "naics": "56173",
+   "psc": "S208",
+   "set_aside": "",
+   "first_posted": "2026-10-21T08:54:52-04:00",
+   "versions": 1,
+   "deadline": "2026-11-04T17:00:00+03:00",
+   "window_days": 14.05,
+   "place": "Bucharest, RO-B",
+   "link": "https://sam.gov/opp/36fc24bfbf494a6898a4f45a2c51a490/view",
+   "pass1": {
+    "prescreen": 1,
+    "severity": 2,
+    "summary": "Embassy Bucharest snow removal IDIQ RFQ. The text refers to a SOW that is not described, and does not say the number of sites, the season dates, estimated hours or quantities. It also says IDIQ but also a fixed hourly price. A bidder cannot price this properly without the SOW.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The RFQ gives two different start dates for the winter ordering window, November 15 in one place and November 1 in another.",
+      "evidence": [
+       {
+        "quote": "During each contract year, services may be ordered during the seasonal service window of November 15 through March 30.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 4
+       },
+       {
+        "quote": "Services may be ordered as needed from November 1 through March 30 during each contract year.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 10
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The attached SOW describes a single 12-month performance period, while the RFQ describes a base year plus two option years.",
+      "evidence": [
+       {
+        "quote": "The performance period of this contract is from the start date in the Notice to Proceed and continues for 12 months when needed.",
+        "source": "SOW-Snow-Removal_services_2026-27.docx",
+        "page": null
+       },
+       {
+        "quote": "The contract will have a one-year base period and two one-year option periods.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 4
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The SOW contains headings and a report template for gardening and lawn maintenance, which do not belong in a snow removal buy.",
+      "evidence": [
+       {
+        "quote": "PERFORMANCE WORK STATEMENT (PWS) – GARDENING SERVICES",
+        "source": "SOW-Snow-Removal_services_2026-27.docx",
+        "page": null
+       },
+       {
+        "quote": "LAWN MAINTENANCE REPORT",
+        "source": "SOW-Snow-Removal_services_2026-27.docx",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The RFQ still contains internal drafting notes and open items, showing the document was not finished before posting.",
+      "evidence": [
+       {
+        "quote": "The Government should specify the unit for final snow disposal.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 8
+       },
+       {
+        "quote": "The Government shall confirm the required currency and VAT presentation before issuance.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 7
+       },
+       {
+        "quote": "Where the source document contains conflicting or incomplete requirements, the items are identified for Contracting Officer confirmation before issuance.",
+        "source": "RFQ 19R01027Q0002 Snow Removal.pdf",
+        "page": 10
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:39+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:SP470327Q0003",
+   "notice_id": "b5c0c265acdc4bbbbf8d645de780ad86",
+   "first_notice_id": "b5c0c265acdc4bbbbf8d645de780ad86",
+   "sol": "SP470327Q0003",
+   "type": "Presolicitation",
+   "title": "DSCR B34 & B42 System Smoke Testing & Hydro Jetting",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEFENSE LOGISTICS AGENCY",
+   "office": "DCSO RICHMOND DIVISION #1",
+   "naics": "236220",
+   "psc": "Z1AA",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-21T10:27:37-04:00",
+   "versions": 1,
+   "deadline": "2026-10-28T23:59:00-04:00",
+   "window_days": 7.56,
+   "place": "Richmond, VA",
+   "link": "https://sam.gov/opp/b5c0c265acdc4bbbbf8d645de780ad86/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Dates contradict: the metadata deadline is 10/28/2026, but the text says site visit 11/5, questions due 11/12 and quotes due 11/19. The solicitation number is given as both SP470327Q0003 and SP4703-27-Q-0003. It is labeled a presolicitation but reads as an RFQ, and it uses construction clauses for what is smoke testing and jetting. A bidder cannot tell the true due date.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "The posting text gives quote, question and site-visit dates in November, but the listed response deadline is October 28, and the SOW includes construction boilerplate unrelated to a smoke-testing and jetting inspection.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting text sets the quote due date at November 19 and the site visit at November 5, but the listed response deadline is October 28, before both of those dates.",
+      "evidence": [
+       {
+        "quote": "Quotes are due on November 19, 2026, end of day.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Site visit November 5, 2026 at 10:00am.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The work is an inspection with no repairs, yet the SOW and posting carry construction-job requirements such as ready-mix concrete, HVAC line sets, door locks and tile installation.",
+      "evidence": [
+       {
+        "quote": "For concrete provided by a ready-mix truck, the contractor has 90 minutes to complete the",
+        "source": "DSCR-B34-B42-Smoke-Testing-SOW.pdf",
+        "page": 6
+       },
+       {
+        "quote": "Whenever an HVAC line set is installed on the exterior the contractor is required to cover",
+        "source": "DSCR-B34-B42-Smoke-Testing-SOW.pdf",
+        "page": 6
+       },
+       {
+        "quote": "No repairs shall be performed under this contract.",
+        "source": "DSCR-B34-B42-Smoke-Testing-SOW.pdf",
+        "page": 2
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The site contact's phone number in the posting differs from the number given for the same person in the SOW.",
+      "evidence": [
+       {
+        "quote": "Coordinate site access with Ramy Massey at (804) 929-1846",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Cell Phone: (804) 921-6694",
+        "source": "DSCR-B34-B42-Smoke-Testing-SOW.pdf",
+        "page": 3
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:42+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:75H70927BAO_002",
+   "notice_id": "86183a388da84989b2fc51e7e99093b4",
+   "first_notice_id": "86183a388da84989b2fc51e7e99093b4",
+   "sol": "75H70927BAO_002",
+   "type": "Sources Sought",
+   "title": "BFSU Electricity Services",
+   "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "subtier": "INDIAN HEALTH SERVICE",
+   "office": "BILLINGS AREA INDIAN HEALTH SVC",
+   "naics": "221122",
+   "psc": "S112",
+   "set_aside": "Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)",
+   "first_posted": "2026-10-21T10:30:00-04:00",
+   "versions": 1,
+   "deadline": "2026-11-05T17:00:00-07:00",
+   "window_days": 15.4,
+   "place": "Browning, MT",
+   "link": "https://sam.gov/opp/86183a388da84989b2fc51e7e99093b4/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Electric utility services sources sought contains copied content from a food service buy: the response requirements ask for experience in 'routine food service delivery and customizable menus to healthcare facilities'. The submission deadline is also ambiguous ('15 days from the announcement'). A bidder would not know what experience to show.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "A sources sought notice for electric utility services asks respondents to show experience in food service delivery and menus for healthcare facilities.",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The experience requirements ask for food service and customizable menus, which does not match the electric utility service the notice says it is buying.",
+      "evidence": [
+       {
+        "quote": "Number of years of experience in providing routine food service delivery and customizable menus to healthcare facilities",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The vendor shall provide electric utility services to the Blackfeet Service Unit (BFSU), Government quarters, and Heart Butte Clinic.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:46+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:W9123727QA010",
+   "notice_id": "8b0e0742ea2f4912add48853ca1551fe",
+   "first_notice_id": "8b0e0742ea2f4912add48853ca1551fe",
+   "sol": "W9123727QA010",
+   "type": "Presolicitation",
+   "title": "Steel and other Materials for the Marietta Repair Station: Stamford Barrier Gate Material PH 2",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE ARMY",
+   "office": "W072 ENDIST HUNTINGTON",
+   "naics": "332312",
+   "psc": "9520",
+   "set_aside": "",
+   "first_posted": "2026-10-21T10:42:29-04:00",
+   "versions": 1,
+   "deadline": "2026-10-28T16:00:00-04:00",
+   "window_days": 7.22,
+   "place": "Middleport, OH",
+   "link": "https://sam.gov/opp/8b0e0742ea2f4912add48853ca1551fe/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The title says Barrier Gate Material PH 2, but the body says it is for work on the Stamford De-Watering Box, which is a copy-paste from the other posting. The materials list (bronze, aluminum, duplex plate, rail) is unlike the de-watering list. A bidder cannot be sure what project this supports. Place of performance is Middleport vs Marietta.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The attachment says the buy is a 100% small business set-aside, but the posting data lists the set-aside as none.",
+      "evidence": [
+       {
+        "quote": "This procurement is 100% small business set a-side.",
+        "source": "B.01.3 Pre-Soliciation Synopsis.docx",
+        "page": null
+       },
+       {
+        "quote": "Set-aside Status: 100% small business set a-side",
+        "source": "B.01.3 Pre-Soliciation Synopsis.docx",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The attachment says solicitation documents will be available around 01 September 2026, which is before the 21 October 2026 posting date and before the 28 October 2026 closing date.",
+      "evidence": [
+       {
+        "quote": "Solicitation documents will be available on or about 01 September 2026 and can be downloaded at www.sam.gov.",
+        "source": "B.01.3 Pre-Soliciation Synopsis.docx",
+        "page": null
+       },
+       {
+        "quote": "Date: 21 October Year: 2026",
+        "source": "B.01.3 Pre-Soliciation Synopsis.docx",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:47+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:W91ZRS27QA001",
+   "notice_id": "3e376cb60f1d49aca53654a4e7a3d51b",
+   "first_notice_id": "3e376cb60f1d49aca53654a4e7a3d51b",
+   "sol": "W91ZRS27QA001",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "CMT Catered Meals",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE ARMY",
+   "office": "W7MZ USPFO ACTIVITY CT ARNG",
+   "naics": "311991",
+   "psc": "8950",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-21T12:29:00-04:00",
+   "versions": 1,
+   "deadline": "2026-11-03T13:00:00-05:00",
+   "window_days": 13.06,
+   "place": "Niantic, CT",
+   "link": "https://sam.gov/opp/3e376cb60f1d49aca53654a4e7a3d51b/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Catered meals RFQ with PWS that contradicts itself and contains copied text. The technical factor refers to distributing media across channels and networks. The SCA wage determination is cited as 2015-4113 Rev 37 in one place and 2015-4111 Rev 35 in another. The PWS describes DFAC services but also packaged meals. Delivery timing differs (5-minute window vs 30-45 minutes before mess hour). The 80% fresh and no pre-packaged rule conflicts with individually packaged meals. The listed provisions include Brand Name or Equal and other clauses that do not fit.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The technical evaluation factor requires distributing media across channels and networks, which has nothing to do with catered meals and appears copied from another buy.",
+      "evidence": [
+       {
+        "quote": "specifically demonstrating the capability to distribute media across the required channels and networks.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The posting names two different Service Contract Act wage determinations (2015-4113 REV 37 and 2015-4111 revision 35), so it is unclear which wage rates apply.",
+      "evidence": [
+       {
+        "quote": "attached U.S. Department of Labor Wage Determination No. 2015-4113 REV 37",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "FAR 52.222-41, Service Contract Act of 1965, (wage determination no. 2015-4111, revision no. 35, date of last revision 6/25/2026)",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:48+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:FA301627Q7005",
+   "notice_id": "a6a06d6fbd5f49dd9be36196eab9431f",
+   "first_notice_id": "a6a06d6fbd5f49dd9be36196eab9431f",
+   "sol": "FA301627Q7005",
+   "type": "Sources Sought",
+   "title": "Elevator Replacement - JBSA-Randolph",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE AIR FORCE",
+   "office": "FA3016  502 CONS CL",
+   "naics": "",
+   "psc": "",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-21T12:30:55-04:00",
+   "versions": 1,
+   "deadline": "2027-11-05T10:00:00-05:00",
+   "window_days": 379.94,
+   "place": "San Antonio, TX",
+   "link": "https://sam.gov/opp/a6a06d6fbd5f49dd9be36196eab9431f/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 3,
+    "summary": "Sources sought for an elevator modernization at JBSA-Randolph. The deadline in the data is Nov 2027 (about 380 days out) while the text says Nov 5, 2026, so the dates contradict. The notice number looks like a solicitation number (Q), the email addresses are an unfilled placeholder ('insert agency email addresses'), and the NAICS and PSC fields are blank.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The instructions for where to send responses contain an unfilled placeholder instead of actual email addresses.",
+      "evidence": [
+       {
+        "quote": "Responses must be submitted electronically via email to the Contracting Officer and Contract Specialist (insert agency email addresses).",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:53+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:W911SD27QA003",
+   "notice_id": "488f3d520b5945ea9b738ceff317900e",
+   "first_notice_id": "488f3d520b5945ea9b738ceff317900e",
+   "sol": "W911SD27QA003",
+   "type": "Sources Sought",
+   "title": "Synopsis -Solid Wood Hangers B+4 West Point FY 27",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE ARMY",
+   "office": "W6QM MICC-WEST POINT",
+   "naics": "321999",
+   "psc": "7290",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-21T13:29:00-04:00",
+   "versions": 1,
+   "deadline": "2026-10-27T16:30:00-04:00",
+   "window_days": 6.13,
+   "place": "West Point, NY",
+   "link": "https://sam.gov/opp/488f3d520b5945ea9b738ceff317900e/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Wood hangers notice has inconsistent NAICS codes (321999 in header, 312999 in text, and a GSA SIN 332510C reference), is labeled Sources Sought but says the solicitation is issued and quotes with samples are due, and the window is about 6 days for a base-plus-four-year buy needing samples.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "One sample instruction says to upload photos in Unison with the packet, while the other says to send them to a West Point address by UPS or USPS; the specification says photos are mailed.",
+      "evidence": [
+       {
+        "quote": "based on the specifications attached in the solicitation as part of your packet in UNISON.",
+        "source": "FAR 52.212-1.pdf",
+        "page": 1
+       },
+       {
+        "quote": "The sample shall be sent via UPS or USPS, and must contain the following information:",
+        "source": "Sample Instructions.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The FAR 52.212-1 addendum has a broken, unfinished sentence about what happens if an offeror does not submit something.",
+      "evidence": [
+       {
+        "quote": "Therefore, if an offeror doesn't submit consideration for this contract.",
+        "source": "FAR 52.212-1.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "unclear",
+      "why": "The notice is titled and typed as a Sources Sought synopsis, yet the text says the solicitation is issued and quotes with samples are due, so the type of response wanted is mixed.",
+      "evidence": [
+       {
+        "quote": "The solicitation is issued on October 21, 2026 in electronic format only and will be available on the Unison Marketplace",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-23T12:25:53+00:00",
+    "amended": true,
+    "latest_notice_id": "88fba9755a9045a2b453c0d01ff0bd6f"
+   }
+  }
+ ],
+ "model": "claude-opus-5-5",
+ "dropped_on_review": [
+  {
+   "key": "sol:N0010427QTA10",
+   "title": "PUMP UNIT,CENTRIFUG",
+   "date": "2026-10-23",
+   "reason": "Owner review before launch: the 'two reference numbers' issue is probably an assembly and its component, not a contradiction."
+  }
+ ]
+}
