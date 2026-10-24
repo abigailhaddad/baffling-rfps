@@ -338,3 +338,65 @@ def test_locate_ignores_spaces_html_leaves_before_punctuation():
 ])
 def test_numbers_supported(text, hay, ok):
     assert rate.numbers_supported(text, hay) is ok
+
+
+class StuckBatchClient:
+    """A batch that never ends on its own (2026-10-24: a 35-request verify
+    batch sat 5 hours). After cancel it ends with the first `done` requests
+    succeeded and the rest canceled. Regular requests answer at once."""
+    def __init__(self, done):
+        self.done, self.canceled, self.direct = done, False, []
+        self.messages = SimpleNamespace(
+            create=self.create_direct,
+            batches=SimpleNamespace(create=self.create, retrieve=self.retrieve,
+                                    results=self.results, cancel=self.cancel))
+
+    def create(self, requests):
+        self.reqs = requests
+        return SimpleNamespace(id="stuck", processing_status="in_progress")
+
+    def retrieve(self, bid):
+        return SimpleNamespace(id=bid, processing_status="ended" if self.canceled else "in_progress")
+
+    def cancel(self, bid):
+        self.canceled = True
+
+    def results(self, bid):
+        return [SimpleNamespace(custom_id=r["custom_id"], result=SimpleNamespace(
+                    type="succeeded", message=msg({"ok": r["custom_id"]})) if i < self.done
+                    else SimpleNamespace(type="canceled"))
+                for i, r in enumerate(self.reqs)]
+
+    def create_direct(self, **p):
+        self.direct.append(p["messages"][0]["content"])
+        return msg({"ok": "direct"})
+
+
+def _stuck_reqs(n):
+    return {f"r{i}": {"model": "claude-sonnet-5-5", "max_tokens": 10,
+                      "messages": [{"role": "user", "content": f"q{i}"}]} for i in range(n)}
+
+
+def test_timed_out_batch_keeps_finished_and_sends_the_rest_directly(monkeypatch):
+    from baffling import batch
+    monkeypatch.setattr(batch, "TIMEOUT_SECONDS", 0)
+    monkeypatch.setattr(batch, "POLL_SECONDS", 0)
+    c, budget = StuckBatchClient(done=2), batch.Budget(cap=3.0)
+    out = batch.run(c, _stuck_reqs(5), "verify", budget)
+    assert c.canceled
+    assert [out[f"r{i}"][0] for i in range(5)] == [{"ok": "r0"}, {"ok": "r1"}] + [{"ok": "direct"}] * 3
+    assert sorted(c.direct) == ["q2", "q3", "q4"]
+    # 2 at batch price + 3 at full price (1000 in / 100 out tokens each, Sonnet $2/$10 per M)
+    one = (1000 * 2.00 + 100 * 10.00) / 1e6
+    assert budget.spent == pytest.approx(2 * one * 0.5 + 3 * one)
+
+
+def test_timed_out_requests_the_cap_cannot_cover_stay_unrated_and_are_not_retried(monkeypatch):
+    from baffling import batch
+    monkeypatch.setattr(batch, "TIMEOUT_SECONDS", 0)
+    monkeypatch.setattr(batch, "POLL_SECONDS", 0)
+    c, budget = StuckBatchClient(done=1), batch.Budget(cap=0.0)
+    out = batch.run(c, _stuck_reqs(3), "verify", budget)
+    assert out["r0"][0] == {"ok": "r0"}
+    assert [out[k][:2] for k in ("r1", "r2")] == [(None, "daily budget")] * 2
+    assert c.direct == []
