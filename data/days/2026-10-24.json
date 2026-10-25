@@ -1,0 +1,368 @@
+{
+ "day": "2026-10-24",
+ "extract": {
+  "file": "extract.csv",
+  "downloaded_utc": "2026-10-25T14:52:35+00:00"
+ },
+ "skipped": {
+  "not_solicitation_type": 1,
+  "late": 0,
+  "deadline_before_first_posting": 0
+ },
+ "models": {
+  "prescreen": "claude-haiku-5-5",
+  "pass1": "claude-sonnet-5-5",
+  "pass2": "claude-sonnet-5-5",
+  "verify": "claude-opus-5-5"
+ },
+ "counts": {
+  "new": 9,
+  "prescreen_passed": 2,
+  "pass1_flagged": 1,
+  "pass1_failed": 0,
+  "pass2": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "not_rated": 0,
+  "verify_failed": 0,
+  "budget_cut": 0
+ },
+ "cost_usd": {
+  "total": 0.0328,
+  "prescreen": 0.0015,
+  "pass1": 0.0058,
+  "pass2": 0.0079,
+  "verify": 0.0176,
+  "cap": 3.0
+ },
+ "postings": [
+  {
+   "key": "sol:N0010427RNA26",
+   "notice_id": "3733dacd7fd84bdd8d01c1243dfbe2e8",
+   "first_notice_id": "3733dacd7fd84bdd8d01c1243dfbe2e8",
+   "sol": "N0010427RNA26",
+   "type": "Presolicitation",
+   "title": "59--ELECTRONIC COMPONEN, IN REPAIR/MODIFICATION OF",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "5998",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-24T07:15:59-04:00",
+   "versions": 1,
+   "deadline": "2026-12-07T00:00:00-04:00",
+   "window_days": 43.7,
+   "place": "",
+   "link": "https://sam.gov/opp/3733dacd7fd84bdd8d01c1243dfbe2e8/view",
+   "pass1": {
+    "prescreen": 0,
+    "severity": null,
+    "summary": "Sole-source presolicitation for 19 EA of a clearly titled NSN repair buy with a delivery address and a 45-day window. Only the truncated title is off.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:N0010427QUA25",
+   "notice_id": "6de73220f26c4480a3c32fa6436c77cd",
+   "first_notice_id": "6de73220f26c4480a3c32fa6436c77cd",
+   "sol": "N0010427QUA25",
+   "type": "Presolicitation",
+   "title": "59--RELAY ASSEMBLY, IN REPAIR/MODIFICATION OF",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "5945",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-24T07:18:41-04:00",
+   "versions": 1,
+   "deadline": "2026-12-08T00:00:00-04:00",
+   "window_days": 44.7,
+   "place": "",
+   "link": "https://sam.gov/opp/6de73220f26c4480a3c32fa6436c77cd/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The quantity contradicts itself: the header says QTY 33 EA, but the sole-source paragraph says to repair 29 relay assemblies. The notice also repeats boilerplate. It mixes a repair/modification title with 'supplies' language and a 'Small Business Set Aside' alongside a sole-source intent to a named firm. A bidder could not tell whether the quantity is 33 or 29.",
+    "failed": false
+   },
+   "description": "NSN 7H-5945-014841869-GL, TDP VER 006, QTY 33 EA, DELIVER TO W25G1U, W1A8 DLA DISTRIBUTION, NEW CUMBERLAND, PA 17070-5002, INDUCTION NIIN IS 7H, 5945, 014841869, GL, RELAY ASSEMBLY, 6782248-1. This notice of intent is not a request for competitive quotes and the proposed/contract action is for supplies or services for which the Government intends to negotiate with only one sourece. Interested persons may identify their interest and capability to respond to the requirement or submit quotes. Quotes received prior to the award date will be considered by the Government.A determination by the Government not to compete this proposed contract based upon responses to this notice is solely within the discretion of the government. Information received will normally be considered solely for the purpose of determining whether to conduct a competitive procurement.The Government does not own the data or the rights to the data needed to purchase / contract repair of this part from additional sources. It has been determined to be uneconomical to buy the data or rights to the data. It is uneconomical to reverse engineer the part.Interested parties may obtain copies of Military and Federal Specifications and Standards, Qualified Products Lists (QPLs), Qualified Product Databases (QPDs), Military Handbooks, and other standardized documents from the DoD Single Stock Point (DODSSP) at Document Automation and Production Service (DAPS) in Philadelphia, PA. NOTE: Patterns, Drawings, Deviation Lists, Purchase Descriptions, etc. are NOT stocked at DODSSP. Most documents are available in Adobe PDF format from ASSIST-Online at: http://quicksearch.dla.mil/. Users may use ASSIST-Quick Search to search for and download available documents directly using standard browser software. Documents that are not available for downloading from ASSIST-Quick Search can be ordered from the DODSSP website using the ASSIST Shopping Wizard after obtaining a DODSSP Customer Account by following the registration procedures. Users who do not have access to the internet may contact the DODSSP ASSIST Help Desk at 215-697-2667 or 215-697-2179(DSN: 442-2667), or mail their requestDLA Document Services, Bldg. 4/D, 700 Robbins Avenue, Philadelphia PA 19111-5094.Award will be made only if the offeror, the product/service, or the manufacturer meets the qualification requirement(s) at time of award, in accordance with FAR clause 52.209-1. The solicitation identifies the office where additional information can be obtained concerning qualification requirements and is cited in each individual solicitation.This notice of intent is not a request for competitive quotes and theproposed/contract action is for supplies or services for which the Governmentintends to negotiate with only one sourece. Interested persons may identifytheir interest and capability to respond to the requirement or submit quotes.Quotes received prior to the award date will be considered by the Government.A determination by the Government not to compete this proposed contract basedupon responses to this notice is solely within the discretion of thegovernment. Information received will normally be considered solely for thepurpose of determining whether to conduct a competitive procurement.The Government does not own the data or the rights to the data needed to purchase / contract repair of this part from additional sources. It has been determined to be uneconomical to buy the data or rights to the data. It is uneconomical to reverse engineer the part.Interested parties may obtain copies of Military and Federal Specifications and Standards, Qualified Products Lists (QPLs), Qualified Product Databases (QPDs), Military Handbooks, and other standardized documents from the DoD Single Stock Point (DODSSP) at Document Automation and Production Service (DAPS) in Philadelphia, PA. NOTE: Patterns, Drawings, Deviation Lists, Purchase Descriptions, etc. are NOT stocked at DODSSP. Most documents are available in Adobe PDF format from ASSIST-Online at: http://quicksearch.dla.mil/. Users may use ASSIST-Quick Search to search for and download available documents directly using standard browser software. Documents that are not available for downloading from ASSIST-Quick Search can be ordered from the DODSSP website using the ASSIST Shopping Wizard after obtaining a DODSSP Customer Account by following the registration procedures. Users who do not have access to the internet may contact the DODSSP ASSIST Help Desk at 215-697-2667 or 215-697-2179(DSN: 442-2667), or mail their requestDLA Document Services, Bldg. 4/D, 700 Robbins Avenue, Philadelphia PA 19111-5094.The proposed contract action is for supplies or services for which the Government intends to solicit and negotiate with only one source under the authority of FAR 6.302-1. All responsible sources may identify their interest and capability to respond to the requirement or submit proposals, quotations or capability statements. This notice of intent is not a request for competitive proposals. However, all proposals received within 45 days (30 days if award is issued under an existing Basic Ordering Agreement (BOA) after date of publication of this synopsis will be considered by the Government. A determination by the Government not to compete with this proposed contract based upon responses to this notice is solely within the discretion of the Government. Information received will normally be considered solely for the purpose of determining whether to conduct a competitive procurement.Based upon market research, the Government is not using the policies contained in FAR Part 12, Acquisition of Commercial Items, in its solicitation for the described supplies or services. However, interested persons may identify to the contracting officer their interest and capability to satisfy the Government's requirement with a commercial item within 15 days of this notice. The Government intends to issue a sole-source firm-fixed price or NTE contract to REPAIR 29 RELAY ASSEMBLYunits - Part No.: 53711 6782248-1 to SECHAN ELECTRONICS INC., 525 FURNACE HILLS PIKE, LITITZ, PA 17543-8954, CAGE CODE: 7Z941. The Government does not own the data or the rights to the data needed to purchase this part from additional sources. It has been determined to be uneconomical to buy the data or rights to the data. It is uneconomical to reverse engineer the part. This code is used when theGovernment did not initially purchase the data and/or rights. For a copy of the solicitation, please see www.neco.navy.mil. +++",
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting lists a quantity of 33 each at the top, but later says the sole-source action is to repair 29 relay assembly units.",
+      "evidence": [
+       {
+        "quote": "NSN 7H-5945-014841869-GL, TDP VER 006, QTY 33 EA",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "REPAIR 29 RELAY ASSEMBLYunits - Part No.: 53711 6782248-1",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The notice is marked as a total small business set-aside, yet it says the Government intends to negotiate with only one named source and that it is not a request for competitive quotes.",
+      "evidence": [
+       {
+        "quote": "the Government intends to negotiate with only one sourece",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The Government intends to issue a sole-source firm-fixed price or NTE contract to REPAIR 29 RELAY ASSEMBLYunits",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ],
+    "dropped_issues": [
+     {
+      "kind": "contradictory",
+      "why": "The response timing is stated inconsistently: proposals are accepted within 45 days of publication, commercial-item interest within 15 days, and quotes until the award date, while the listed deadline is a different date.",
+      "evidence": [
+       {
+        "quote": "all proposals received within 45 days (30 days if award is issued under an existing Basic Ordering Agreement (BOA)",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "interested persons may identify to the contracting officer their interest and capability to satisfy the Government's requirement with a commercial item within 15 days of this notice",
+        "source": "posting",
+        "page": null
+       }
+      ],
+      "reason": "verifier: The 45-day window roughly matches the 44.7-day posting window, so the deadline is not shown to be inconsistent. The 15-day and 45-day periods serve different purposes, so calling them contradictory overstates the issue."
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The same notice-of-intent and DODSSP paragraphs are pasted twice, and the text includes a stray '+++' and an unfinished sentence about 'This code is used when the Government did not initially purchase the data', which looks like leftover template text.",
+      "evidence": [
+       {
+        "quote": "This code is used when theGovernment did not initially purchase the data and/or rights. For a copy of the solicitation, please see www.neco.navy.mil. +++",
+        "source": "posting",
+        "page": null
+       }
+      ],
+      "reason": "verifier: The duplication is real, but 'This code is used when...' is a complete sentence, not an unfinished one. The '+++' point is a formatting artifact that may not appear in the real document."
+     }
+    ],
+    "tokens": [
+     4018,
+     770
+    ],
+    "attachments": [
+     {
+      "name": "BUSINESS OPPORTUNITIES",
+      "type": "link",
+      "size": 0,
+      "skipped": "a link, not a file"
+     }
+    ],
+    "attachments_error": null,
+    "verify_tokens": [
+     3978,
+     964
+    ],
+    "dropped_headline": {
+     "headline": "The notice gives two different quantities (33 vs 29 units) and mixes a small-business set-aside with a sole-source intent to one named firm, plus repeated boilerplate.",
+     "reason": "an issue it may summarize was rejected"
+    }
+   }
+  },
+  {
+   "key": "sol:N0010427RZA06",
+   "notice_id": "aa94ab02c28446bcab17ea38b3c74e88",
+   "first_notice_id": "aa94ab02c28446bcab17ea38b3c74e88",
+   "sol": "N0010427RZA06",
+   "type": "Presolicitation",
+   "title": "58--DOME,SONAR",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "5845",
+   "set_aside": "",
+   "first_posted": "2026-10-24T07:23:47-04:00",
+   "versions": 1,
+   "deadline": "2026-12-07T00:00:00-04:00",
+   "window_days": 43.69,
+   "place": "",
+   "link": "https://sam.gov/opp/aa94ab02c28446bcab17ea38b3c74e88/view",
+   "pass1": {
+    "prescreen": 1,
+    "severity": null,
+    "summary": "Clear NSN buy for 2 EA dome sonar with a notice-ID history. Leftover boilerplate about A/RMSC codes and data rights ('A/RMCs 1 or 2 are valid') adds noise but does not change what is bought or how to respond.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:N0010427QBB57",
+   "notice_id": "f631ffd8e2c0459ba682d2d441a9d6e5",
+   "first_notice_id": "f631ffd8e2c0459ba682d2d441a9d6e5",
+   "sol": "N0010427QBB57",
+   "type": "Presolicitation",
+   "title": "47--HOSE ASSEMBLY,NONME",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "4720",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-24T07:26:19-04:00",
+   "versions": 1,
+   "deadline": "2026-12-07T00:00:00-04:00",
+   "window_days": 43.69,
+   "place": "",
+   "link": "https://sam.gov/opp/f631ffd8e2c0459ba682d2d441a9d6e5/view",
+   "pass1": {
+    "prescreen": 1,
+    "severity": null,
+    "summary": "Manufacture of 75 hose assemblies to the IRPOD/TDP with 90-day delivery and source inspection is clear. The posting is labelled presolicitation yet refers to an RFQ to be submitted, and the technical data needs a password-protected site and pre-registration, so drawings are needed before pricing.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:N0010427QBB66",
+   "notice_id": "565e8dc22d744c82b0c01fa7be758b7e",
+   "first_notice_id": "565e8dc22d744c82b0c01fa7be758b7e",
+   "sol": "N0010427QBB66",
+   "type": "Presolicitation",
+   "title": "31--SHELL, BEARING UP.",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "3120",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-24T07:28:53-04:00",
+   "versions": 1,
+   "deadline": "2026-11-24T00:00:00-04:00",
+   "window_days": 30.69,
+   "place": "",
+   "link": "https://sam.gov/opp/565e8dc22d744c82b0c01fa7be758b7e/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 1,
+    "summary": "This is a routine NAVSUP sole-source notice for 8 bearing shells under FAR 6.302-1, with clear NSN, quantity and delivery points. The only flaws are minor: the small business set-aside label sits oddly with a sole-source intent, and the notice does not name the intended source.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:N3220527Q7021",
+   "notice_id": "dee829028bd5464f8cca9f18e592ebee",
+   "first_notice_id": "dee829028bd5464f8cca9f18e592ebee",
+   "sol": "N3220527Q7021",
+   "type": "Solicitation",
+   "title": "USNS HENRY J. KAISER Main Engine Jacket Water Cooler Gasket Sets",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "MSCHQ NORFOLK",
+   "naics": "339991",
+   "psc": "5330",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-24T09:51:08-04:00",
+   "versions": 1,
+   "deadline": "2026-11-03T14:00:00-05:00",
+   "window_days": 10.21,
+   "place": "",
+   "link": "https://sam.gov/opp/dee829028bd5464f8cca9f18e592ebee/view",
+   "pass1": {
+    "prescreen": 0,
+    "severity": null,
+    "summary": "Solicitation for gasket sets for a named ship's main engine cooler, with NAICS and PSC given. The posting text only points to an attached SF 1449 and brand name justification, so the details are in the attachments.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:FA890327QX001",
+   "notice_id": "e64ac093b491458794bd0421267f559b",
+   "first_notice_id": "e64ac093b491458794bd0421267f559b",
+   "sol": "FA890327QX001",
+   "type": "Sources Sought",
+   "title": "Purchase of Military Work Dog (CONUS)",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE AIR FORCE",
+   "office": "FA8053  773 ESS PKJ MSCC",
+   "naics": "112990",
+   "psc": "8820",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-24T15:56:19-04:00",
+   "versions": 1,
+   "deadline": "2026-11-02T14:00:00-06:00",
+   "window_days": 9.0,
+   "place": "",
+   "link": "https://sam.gov/opp/e64ac093b491458794bd0421267f559b/view",
+   "pass1": {
+    "prescreen": 1,
+    "severity": null,
+    "summary": "Sources sought for fully trained military working dogs (CONUS) with a 9-day window. The text says 'SEE SUBMITTAL REQUIREMENTS BELOW' but none appear, so required response content is unclear from the posting, and the scope relies on an attached draft document. The text does not mention CONUS.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:810-101-27",
+   "notice_id": "491531dc7df14741b8cb9a795a3f8494",
+   "first_notice_id": "491531dc7df14741b8cb9a795a3f8494",
+   "sol": "810-101-27",
+   "type": "Solicitation",
+   "title": "Contract Delivery Service (CDS) HCR 961A6 ALTURAS, CA - H002, CA",
+   "agency": "POSTAL SERVICE",
+   "subtier": "POSTAL SERVICE",
+   "office": "SUPPLIES MATERIAL MGMT",
+   "naics": "491110",
+   "psc": "V119",
+   "set_aside": "",
+   "first_posted": "2026-10-24T16:19:08-04:00",
+   "versions": 1,
+   "deadline": "2026-11-06T10:00:00-07:00",
+   "window_days": 12.86,
+   "place": "Alturas, CA",
+   "link": "https://sam.gov/opp/491531dc7df14741b8cb9a795a3f8494/view",
+   "pass1": {
+    "prescreen": 0,
+    "severity": null,
+    "summary": "USPS contract delivery service solicitation for the Alturas, CA route with a closing date, effective date and submission contacts. Scope, terms and SOW are in the attached Solicitation Details and Proposal Submission Package.",
+    "failed": false
+   }
+  },
+  {
+   "key": "sol:FA890327QX002",
+   "notice_id": "1bd05c0e0f4341cbb542ca1906527e33",
+   "first_notice_id": "1bd05c0e0f4341cbb542ca1906527e33",
+   "sol": "FA890327QX002",
+   "type": "Sources Sought",
+   "title": "Purchase Military Working Dogs (OCONUS)",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE AIR FORCE",
+   "office": "FA8053  773 ESS PKJ MSCC",
+   "naics": "112990",
+   "psc": "8820",
+   "set_aside": "",
+   "first_posted": "2026-10-24T16:44:33-04:00",
+   "versions": 1,
+   "deadline": "2026-11-02T14:00:00-06:00",
+   "window_days": 8.97,
+   "place": "",
+   "link": "https://sam.gov/opp/1bd05c0e0f4341cbb542ca1906527e33/view",
+   "pass1": {
+    "prescreen": 1,
+    "severity": null,
+    "summary": "Sources sought for military working dogs (OCONUS) with the same text as the CONUS notice, which never mentions OCONUS. The text may have been copied from the other buy, and the submittal requirements it refers to are missing.",
+    "failed": false
+   }
+  }
+ ]
+}
