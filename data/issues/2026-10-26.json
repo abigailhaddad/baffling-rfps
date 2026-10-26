@@ -1,0 +1,706 @@
+{
+ "date": "2026-10-26",
+ "window": {
+  "from": "2026-10-22",
+  "to": "2026-10-25"
+ },
+ "built_utc": "2026-10-26T18:04:39+00:00",
+ "counts": {
+  "new": 1449,
+  "pass1_flagged": 106,
+  "severity3": 0,
+  "severity2": 8,
+  "dropped_by_live_check": 0,
+  "not_rated": 0,
+  "verify_failed": 10,
+  "finalists": 8
+ },
+ "winner": {
+  "key": "sol:36C25627Q0079",
+  "notice_id": "992db3b4448b41f1999ddc515ed88204",
+  "first_notice_id": "992db3b4448b41f1999ddc515ed88204",
+  "sol": "36C25627Q0079",
+  "type": "Sources Sought",
+  "title": "Sir - Sphere",
+  "agency": "VETERANS AFFAIRS, DEPARTMENT OF",
+  "subtier": "VETERANS AFFAIRS, DEPARTMENT OF",
+  "office": "256-NETWORK CONTRACT OFFICE 16 (36C256)",
+  "naics": "",
+  "psc": "",
+  "set_aside": "",
+  "first_posted": "2026-10-22T09:06:02-04:00",
+  "versions": 1,
+  "deadline": "2026-10-27T16:00:00-05:00",
+  "window_days": 5.33,
+  "place": "Houston, TX",
+  "link": "https://sam.gov/opp/992db3b4448b41f1999ddc515ed88204/view",
+  "pass1": {
+   "prescreen": 2,
+   "severity": 2,
+   "summary": "Titled \"Sir - Sphere\" and posted as a sources sought notice, but the text is a purchase request for a De Mayo Adapt2Fit Modular Knee Positioner. The title does not match, and there is no NAICS or PSC code, quantity, or instructions for responding.",
+   "failed": false
+  },
+  "pass2": {
+   "severity": 2,
+   "headline": "",
+   "issues": [
+    {
+     "kind": "contradictory",
+     "why": "The posting describes buying an orthopedic knee positioner, while the attachments describe buying Y-90 liver radiation microspheres for Interventional Radiology.",
+     "evidence": [
+      {
+       "quote": "requests purchase of a De Mayo Adapt2Fit Modular Knee Positioner.",
+       "source": "posting",
+       "page": null
+      },
+      {
+       "quote": "The overall purpose is to acquire the Y-90 microspheres (SIR Spheres) intended for intra-arterial radiation therapy (radioembolization) to liver tumors.",
+       "source": "SOW RFI.pdf",
+       "page": 1
+      }
+     ]
+    },
+    {
+     "kind": "unclear",
+     "why": "The RFI lists questions 3(a) through 3(f) and says there is no page limit on them, but the questions are lettered a, b, c, d, d, e, so the numbering is inconsistent, and the RFI also points to Section 4.1 of a draft SOW for what is being bought.",
+     "evidence": [
+      {
+       "quote": "There is no page limitation on subparagraphs 3(a) - 3(f).",
+       "source": "RFI.pdf",
+       "page": 2
+      },
+      {
+       "quote": "Please see Section 4.1 in attached Draft Statement of Work",
+       "source": "RFI.pdf",
+       "page": 1
+      }
+     ]
+    }
+   ],
+   "dropped_issues": [
+    {
+     "kind": "contradictory",
+     "why": "The response deadline is given as October 26, 2026 in the RFI, but the posting data shows October 27, 2026.",
+     "evidence": [
+      {
+       "source": "RFI.pdf",
+       "quote": "RFI/SS responses are due by 4pm (CST), Monday, October 26, 2026"
+      }
+     ],
+     "reason": "a contradiction needs both sides quoted"
+    },
+    {
+     "kind": "wrong_content",
+     "why": "The statement of work is marked as a draft and contains stray draft characters and sections for equipment acceptance testing, which do not fit a Sources Sought for microspheres; the product specifications section is also vague.",
+     "evidence": [
+      {
+       "quote": "Shall be provided to preserve continued functions that these treatments provide to the IR department.",
+       "source": "SOW RFI.pdf",
+       "page": 2
+      },
+      {
+       "quote": "The Contractor shall notify the COR in writing that the system is ready for acceptance testing",
+       "source": "SOW RFI.pdf",
+       "page": 2
+      }
+     ],
+     "reason": "verifier: The 'stray draft characters' are the D/R/AF/T letters left when the 'DRAFT' watermark was machine-extracted, which is an extraction artifact. Judging the acceptance-testing sections as misfitting is interpretive, and the claim mixes both points with the vagueness point."
+    }
+   ],
+   "tokens": [
+    6690,
+    770
+   ],
+   "attachments": [
+    {
+     "name": "SOW RFI.pdf",
+     "type": "file",
+     "size": 1439882,
+     "ocr_pages": [],
+     "unread_pages": [],
+     "read": true
+    },
+    {
+     "name": "RFI.pdf",
+     "type": "file",
+     "size": 359888,
+     "ocr_pages": [],
+     "unread_pages": [],
+     "read": true
+    }
+   ],
+   "attachments_error": null,
+   "verify_tokens": [
+    6504,
+    734
+   ],
+   "dropped_headline": {
+    "headline": "",
+    "reason": "no verdict"
+   }
+  },
+  "live": {
+   "checked_utc": "2026-10-26T18:04:16+00:00",
+   "amended": false
+  },
+  "headline": "VA notice seeks knee positioner; its attachments describe liver radiation microspheres",
+  "dek": "A VA Houston sources-sought notice titled \"Sir - Sphere\" says it is buying an orthopedic knee positioner, while its attached statement of work describes buying Y-90 microspheres for radiation therapy of liver tumors. The RFI's question lettering is also inconsistent.",
+  "hero": {
+   "kind": "contradictory",
+   "why": "The posting describes buying an orthopedic knee positioner, while the attachments describe buying Y-90 liver radiation microspheres for Interventional Radiology.",
+   "evidence": [
+    {
+     "quote": "requests purchase of a De Mayo Adapt2Fit Modular Knee Positioner.",
+     "source": "posting",
+     "page": null
+    },
+    {
+     "quote": "The overall purpose is to acquire the Y-90 microspheres (SIR Spheres) intended for intra-arterial radiation therapy (radioembolization) to liver tumors.",
+     "source": "SOW RFI.pdf",
+     "page": 1
+    }
+   ]
+  },
+  "support": [
+   {
+    "kind": "unclear",
+    "why": "The RFI lists questions 3(a) through 3(f) and says there is no page limit on them, but the questions are lettered a, b, c, d, d, e, so the numbering is inconsistent, and the RFI also points to Section 4.1 of a draft SOW for what is being bought.",
+    "evidence": [
+     {
+      "quote": "There is no page limitation on subparagraphs 3(a) - 3(f).",
+      "source": "RFI.pdf",
+      "page": 2
+     },
+     {
+      "quote": "Please see Section 4.1 in attached Draft Statement of Work",
+      "source": "RFI.pdf",
+      "page": 1
+     }
+    ]
+   }
+  ],
+  "also": []
+ },
+ "list": [
+  {
+   "key": "sol:N0010425QYM15",
+   "notice_id": "8dca35e5cd80428592cbd995b0aad77e",
+   "first_notice_id": "65539a07e6564b67acd1ff393e53697a",
+   "sol": "N0010425QYM15",
+   "type": "Solicitation",
+   "title": "CONNECTION,FLEXIBLE",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "332919",
+   "psc": "4730",
+   "set_aside": "",
+   "first_posted": "2025-09-03T03:55:39-04:00",
+   "versions": 5,
+   "deadline": "2026-11-20T16:30:00-04:00",
+   "window_days": 443.52,
+   "place": "",
+   "link": "https://sam.gov/opp/8dca35e5cd80428592cbd995b0aad77e/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Flexible connection repair with unfilled placeholder 'price reduction of XXXX per unit'. Amendments conflict on quantities and dates (Aug 2026 vs Nov 2026; ship-to W62G2T reduced to zero). Quantity is unclear. Requested RTAT is 200 days against a delivery clause of 220.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The price reduction clause has an unfilled placeholder (XXXX) where the per-unit amount should be.",
+      "evidence": [
+       {
+        "quote": "will incur a price reduction of XXXX per unit.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The amendment says the ship-to W62G2T quantity is reduced to zero, yet the payment instructions still list W62G2T-4, and the CLIN quantities (5 and 4) do not match a quantity of six for W25G1U.",
+      "evidence": [
+       {
+        "quote": "Ship to W62G2T is reduced to zero and W25G1U is now set to six.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "W25G1U-5;W62G2T-4",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:15+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:N0010426QYABQ",
+   "notice_id": "81565ea613e6461f820e7e8110d11cf4",
+   "first_notice_id": "12094d61970c468b995c2b5a49e35ccf",
+   "sol": "N0010426QYABQ",
+   "type": "Solicitation",
+   "title": "VALVE,SOLENOID",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "332919",
+   "psc": "4810",
+   "set_aside": "",
+   "first_posted": "2026-07-15T05:42:55-04:00",
+   "versions": 3,
+   "deadline": "2026-11-30T16:30:00-04:00",
+   "window_days": 138.45,
+   "place": "",
+   "link": "https://sam.gov/opp/81565ea613e6461f820e7e8110d11cf4/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "A repair buy for a solenoid valve. The clause list includes a Total Small Business Set-Aside notice while the posting says set-aside none. Quantity is not stated, and the item is both repair and a purchase with FOB destination and an increased-quantity option. The ordering and repair requirements are otherwise clear.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "A repair solicitation for a solenoid valve also says only authorized distributors of the original manufacturer's item can be considered for award.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting says the buy is for repair of the valve, but a later note limits award to authorized distributors of the manufacturer's item, which describes a supply purchase.",
+      "evidence": [
+       {
+        "quote": "This is an EAF REPAIR requirement for the items listed in this solicitation.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "Consideration for award of contract shall be given only to authorized distributors of the original manufacturer's item represented in this solicitation.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:15+00:00",
+    "amended": true,
+    "latest_notice_id": "f30c3d7352cb480eb53cab45e2834beb"
+   }
+  },
+  {
+   "key": "sol:N0038326RFB39",
+   "notice_id": "5388fac3ce1046f4b661028937b86cff",
+   "first_notice_id": "1ce4d53d7d1a40fca3a8942a47a0ffcd",
+   "sol": "N0038326RFB39",
+   "type": "Presolicitation",
+   "title": "16--HYDRAULIC WINCH, IN REPAIR/MODIFICATION OF",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT",
+   "naics": "336413",
+   "psc": "1650",
+   "set_aside": "",
+   "first_posted": "2026-08-08T07:59:32-04:00",
+   "versions": 3,
+   "deadline": "2026-10-23T14:00:00-04:00",
+   "window_days": 76.25,
+   "place": "",
+   "link": "https://sam.gov/opp/5388fac3ce1046f4b661028937b86cff/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The quantity is contradictory. The text says repair of 4 units, but also carries a modification line cutting the quantity from 4 to 1, and separately asks for option pricing for a maximum of 2 units. A bidder cannot tell what quantity to price.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting says the quantity is cut from 4 units to 1 unit, but it also says the solicitation covers 4 units and asks for option pricing for a maximum of 2 units.",
+      "evidence": [
+       {
+        "quote": "The quantity is hereby decreased by 3 units from 4 units to 1 unit.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "This solicitation is for the repair of 4 units of National Stock Number (NSN) 1650 016478874.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The contractor shall propose option pricing for a maximum of 2 units over the entire contract period, inclusive of the initial quantity.",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:16+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:36C25627Q0079",
+   "notice_id": "992db3b4448b41f1999ddc515ed88204",
+   "first_notice_id": "992db3b4448b41f1999ddc515ed88204",
+   "sol": "36C25627Q0079",
+   "type": "Sources Sought",
+   "title": "Sir - Sphere",
+   "agency": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "subtier": "VETERANS AFFAIRS, DEPARTMENT OF",
+   "office": "256-NETWORK CONTRACT OFFICE 16 (36C256)",
+   "naics": "",
+   "psc": "",
+   "set_aside": "",
+   "first_posted": "2026-10-22T09:06:02-04:00",
+   "versions": 1,
+   "deadline": "2026-10-27T16:00:00-05:00",
+   "window_days": 5.33,
+   "place": "Houston, TX",
+   "link": "https://sam.gov/opp/992db3b4448b41f1999ddc515ed88204/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "Titled \"Sir - Sphere\" and posted as a sources sought notice, but the text is a purchase request for a De Mayo Adapt2Fit Modular Knee Positioner. The title does not match, and there is no NAICS or PSC code, quantity, or instructions for responding.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting describes buying an orthopedic knee positioner, while the attachments describe buying Y-90 liver radiation microspheres for Interventional Radiology.",
+      "evidence": [
+       {
+        "quote": "requests purchase of a De Mayo Adapt2Fit Modular Knee Positioner.",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The overall purpose is to acquire the Y-90 microspheres (SIR Spheres) intended for intra-arterial radiation therapy (radioembolization) to liver tumors.",
+        "source": "SOW RFI.pdf",
+        "page": 1
+       }
+      ]
+     },
+     {
+      "kind": "unclear",
+      "why": "The RFI lists questions 3(a) through 3(f) and says there is no page limit on them, but the questions are lettered a, b, c, d, d, e, so the numbering is inconsistent, and the RFI also points to Section 4.1 of a draft SOW for what is being bought.",
+      "evidence": [
+       {
+        "quote": "There is no page limitation on subparagraphs 3(a) - 3(f).",
+        "source": "RFI.pdf",
+        "page": 2
+       },
+       {
+        "quote": "Please see Section 4.1 in attached Draft Statement of Work",
+        "source": "RFI.pdf",
+        "page": 1
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:16+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:75N98027Q00024",
+   "notice_id": "c505f5ce7c364290af7134e1e37f3dc4",
+   "first_notice_id": "c505f5ce7c364290af7134e1e37f3dc4",
+   "sol": "75N98027Q00024",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "Combines Synopsis Solicitation- Automated Spatial",
+   "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "subtier": "NATIONAL INSTITUTES OF HEALTH",
+   "office": "NATIONAL INSTITUTES OF HEALTH OLAO",
+   "naics": "334516",
+   "psc": "6640",
+   "set_aside": "",
+   "first_posted": "2026-10-22T12:22:07-04:00",
+   "versions": 1,
+   "deadline": "2026-11-05T12:00:00-05:00",
+   "window_days": 14.03,
+   "place": "",
+   "link": "https://sam.gov/opp/c505f5ce7c364290af7134e1e37f3dc4/view",
+   "pass1": {
+    "prescreen": 3,
+    "severity": 2,
+    "summary": "Non-competitive combined synopsis/solicitation text never says what is being bought (title only 'Automated Spatial'), quantity, or the sole source justification and response contents; authority citations are garbled/inconsistent.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "wrong_content",
+      "why": "The item list is for a liquid handling robot and accessories, but the salient characteristics line describes cell culture medium in 'battles', which appears copied from a different buy.",
+      "evidence": [
+       {
+        "quote": "Salient characteristics: Specific cell culture medium for different cell types.\nQuantity: 10 battles for each type of medium.",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 4
+       },
+       {
+        "quote": "Parhelia Spatial Station ST Automation Platform                     1pcs",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 3
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "Drafting instructions from the template were left in the text instead of being filled in or removed.",
+      "evidence": [
+       {
+        "quote": "applies to this\nacquisition. Add any additional instructions as required.",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 4
+       },
+       {
+        "quote": "Add additional evaluation criteria as required.",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 4
+       },
+       {
+        "quote": "(vii) [Reserved, if needed]",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 4
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The form lists the telephone as a placeholder number and the office name differs between the form and the notice text (Office of Logistics and Acquisition Operations vs. Office of the Director, Office of Acquisitions).",
+      "evidence": [
+       {
+        "quote": "+1 000 000 0000",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 1
+       },
+       {
+        "quote": "The National Institutes of Health (NIH), Office of the Director, Office of Acquisitions, intends to",
+        "source": "Sol_75N98027Q00024.pdf",
+        "page": 3
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:18+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:19GT5027Q0004",
+   "notice_id": "3d428a0f145a4b468af73d772d8bcaae",
+   "first_notice_id": "3d428a0f145a4b468af73d772d8bcaae",
+   "sol": "19GT5027Q0004",
+   "type": "Solicitation",
+   "title": "Guatemala - Tactical Dock",
+   "agency": "STATE, DEPARTMENT OF",
+   "subtier": "STATE, DEPARTMENT OF",
+   "office": "U.S.EMBASSY GUATEMALA CITY",
+   "naics": "332312",
+   "psc": "5450",
+   "set_aside": "No Set aside used",
+   "first_posted": "2026-10-22T13:57:48-04:00",
+   "versions": 1,
+   "deadline": "2026-12-04T17:00:00-05:00",
+   "window_days": 43.17,
+   "place": "Guatemala, GT-GU",
+   "link": "https://sam.gov/opp/3d428a0f145a4b468af73d772d8bcaae/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The text says only that a floating dock system is to be acquired and installed. It gives no size, capacity, site conditions or response requirements. Details must come from attachments; a 43-day window is adequate.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "impossible",
+      "why": "The contract requires all work to be finished within 30 days of notice to proceed, yet no construction may start until the environmental approval and the 100% design have been approved, and an environmental impact study may also be needed.",
+      "evidence": [
+       {
+        "quote": "complete the entire work ready for use not later than thirty (30) calendar days.",
+        "source": "19GT5027Q0004 - GTM - Tactical Dock.pdf",
+        "page": 21
+       },
+       {
+        "quote": "No construction activities shall begin until the final (100%) design package has been reviewed and approved by the COR.",
+        "source": "19GT5027Q0004 - GTM - Tactical Dock.pdf",
+        "page": 10
+       },
+       {
+        "quote": "If the competent authority determines that an Environmental Impact Assessment (EIA) is required, the Contractor shall prepare the study and obtain the corresponding environmental approval before construction begins.",
+        "source": "19GT5027Q0004 - GTM - Tactical Dock.pdf",
+        "page": 10
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:20+00:00",
+    "amended": false
+   }
+  },
+  {
+   "key": "sol:W50S9327QA001",
+   "notice_id": "3110c27daa1b4ca89aabbca4980b1a48",
+   "first_notice_id": "3110c27daa1b4ca89aabbca4980b1a48",
+   "sol": "W50S9327QA001",
+   "type": "Combined Synopsis/Solicitation",
+   "title": "Replacement of 10 Ton HVAC Unit, Bldg.11, PR ANG",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE ARMY",
+   "office": "W7PA USPFO ACTIVITY PRANG 156",
+   "naics": "238220",
+   "psc": "4120",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-22T15:34:06-04:00",
+   "versions": 1,
+   "deadline": "2026-11-03T10:00:00-05:00",
+   "window_days": 11.81,
+   "place": "Carolina, PR",
+   "link": "https://sam.gov/opp/3110c27daa1b4ca89aabbca4980b1a48/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "HVAC replacement RFQ with several internal inconsistencies: it says 'a 10 ton unit' in the title vs 'two 10-ton units' in the text, mentions a different base (Punta Borinquen) in the access notice, mixes time zones (EST/CT/AST), requires a site visit request, and provides a ~12-day window with a 30-day completion. Also references SAM registration that takes 15 business days. A bidder could misprice the quantity.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "The notice asks for two 10-ton units and a CLIN 0002, but the solicitation schedule has one unit and only CLIN 0001, and the base access text names a different base.",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting tells offerors to price CLIN 0001 and CLIN 0002, but the solicitation's pricing instructions refer only to CLIN 0001 and Section B lists only item 0001.",
+      "evidence": [
+       {
+        "quote": "all items must be priced and totaled (CLIN 0001, CLIN 0002)",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "include your pricing for each contract line item (CLIN 0001) under Section B",
+        "source": "Solicitation - W50S9327QA001.pdf",
+        "page": 27
+       }
+      ]
+     },
+     {
+      "kind": "wrong_content",
+      "why": "The index of contract drawings in the solicitation is left as blank template lines, although the solicitation says the work must conform to the drawings on that index.",
+      "evidence": [
+       {
+        "quote": "The work shall conform to the specifications and the contract drawings identified on the following index of drawings:",
+        "source": "Solicitation - W50S9327QA001.pdf",
+        "page": 17
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:20+00:00",
+    "amended": true,
+    "latest_notice_id": "883af2dd0d7146f58f81757998d845e6"
+   }
+  },
+  {
+   "key": "sol:N0010427QUA25",
+   "notice_id": "6de73220f26c4480a3c32fa6436c77cd",
+   "first_notice_id": "6de73220f26c4480a3c32fa6436c77cd",
+   "sol": "N0010427QUA25",
+   "type": "Presolicitation",
+   "title": "59--RELAY ASSEMBLY, IN REPAIR/MODIFICATION OF",
+   "agency": "DEPT OF DEFENSE",
+   "subtier": "DEPT OF THE NAVY",
+   "office": "NAVSUP WEAPON SYSTEMS SUPPORT MECH",
+   "naics": "",
+   "psc": "5945",
+   "set_aside": "Small Business Set Aside - Total",
+   "first_posted": "2026-10-24T07:18:41-04:00",
+   "versions": 1,
+   "deadline": "2026-12-08T00:00:00-04:00",
+   "window_days": 44.7,
+   "place": "",
+   "link": "https://sam.gov/opp/6de73220f26c4480a3c32fa6436c77cd/view",
+   "pass1": {
+    "prescreen": 2,
+    "severity": 2,
+    "summary": "The quantity contradicts itself: the header says QTY 33 EA, but the sole-source paragraph says to repair 29 relay assemblies. The notice also repeats boilerplate. It mixes a repair/modification title with 'supplies' language and a 'Small Business Set Aside' alongside a sole-source intent to a named firm. A bidder could not tell whether the quantity is 33 or 29.",
+    "failed": false
+   },
+   "pass2": {
+    "severity": 2,
+    "headline": "",
+    "issues": [
+     {
+      "kind": "contradictory",
+      "why": "The posting lists a quantity of 33 each at the top, but later says the sole-source action is to repair 29 relay assembly units.",
+      "evidence": [
+       {
+        "quote": "NSN 7H-5945-014841869-GL, TDP VER 006, QTY 33 EA",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "REPAIR 29 RELAY ASSEMBLYunits - Part No.: 53711 6782248-1",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     },
+     {
+      "kind": "contradictory",
+      "why": "The notice is marked as a total small business set-aside, yet it says the Government intends to negotiate with only one named source and that it is not a request for competitive quotes.",
+      "evidence": [
+       {
+        "quote": "the Government intends to negotiate with only one sourece",
+        "source": "posting",
+        "page": null
+       },
+       {
+        "quote": "The Government intends to issue a sole-source firm-fixed price or NTE contract to REPAIR 29 RELAY ASSEMBLYunits",
+        "source": "posting",
+        "page": null
+       }
+      ]
+     }
+    ]
+   },
+   "live": {
+    "checked_utc": "2026-10-26T18:04:26+00:00",
+    "amended": false
+   }
+  }
+ ],
+ "model": "claude-opus-5-5"
+}
